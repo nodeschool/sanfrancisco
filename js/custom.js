@@ -41,5 +41,7 @@ $().ready(function() {
 		var $pos = calculatePos($elem);
 		console.log($pos);
 		$('html,body').animate({ scrollTop: $pos });
+		history.pushState(null, null, $(this).attr('href'));
+		return false;
 	});
 });
