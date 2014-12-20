@@ -2,6 +2,7 @@ $().ready(function() {
 	window.pagemargin = 100;
 	window.pagepadding = 220;
 	window.pages = $('a[data-role="page"]');
+	window.curpage = '';
 	console.log(window.pages);
 	
 	function calculatePos(elem) {
@@ -25,9 +26,13 @@ $().ready(function() {
 			}
 		});
 		
-		var $link = $('ul.nav > li > a[href="#' + $s.name + '"]');
-		$('ul.nav > li').removeClass('active');
-		$link.parent().addClass('active');
+		if (window.curpage != $s.name) {
+			console.log('From: ' + window.curpage + ' to: ' + $s.name);
+			var $link = $('ul.nav > li > a[href="#' + $s.name + '"]');
+			$('ul.nav > li').removeClass('active');
+			$link.parent().addClass('active');
+			history.pushState(null, null, $link.attr('href'));
+		}
 	}
 	
 	refreshNavbar();
