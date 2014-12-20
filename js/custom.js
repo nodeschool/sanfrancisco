@@ -3,7 +3,6 @@ $().ready(function() {
 	window.pagepadding = 220;
 	window.pages = $('a[data-role="page"]');
 	window.curpage = '';
-	console.log(window.pages);
 	
 	function calculatePos(elem) {
 		var $ret = $(elem).offset().top - window.pagemargin;
@@ -27,7 +26,6 @@ $().ready(function() {
 		});
 		
 		if (window.curpage != $s.name) {
-			console.log('From: ' + window.curpage + ' to: ' + $s.name);
 			var $link = $('ul.nav > li > a[href="#' + $s.name + '"]');
 			$('ul.nav > li').removeClass('active');
 			$link.parent().addClass('active');
