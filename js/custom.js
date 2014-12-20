@@ -1,6 +1,6 @@
 $().ready(function() {
-	window.pagemargin = 120;
-	window.pagepadding = 40;
+	window.pagemargin = 100;
+	window.pagepadding = 220;
 	window.pages = $('a[data-role="page"]');
 	console.log(window.pages);
 	
