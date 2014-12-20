@@ -33,11 +33,11 @@
 }
 
 .text-contrast {
-	color: #ffb644;
+	color: #fff;
 }
 
 .text-contrast:hover {
-	color: #ffd490;
+	color: #80c0ff;
 }
 
 div.brand > img {
