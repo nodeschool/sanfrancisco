@@ -36,7 +36,7 @@ $().ready(function() {
 		refreshNavbar();
 	});
 	
-	$('ul.nav > li > a').click(function() {
+	$('a[data-role="goto"]').click(function() {
 		var $elem = $('a[name="' + $(this).attr('href').substring(1) + '"]');
 		var $pos = calculatePos($elem);
 		console.log($pos);
