@@ -39,3 +39,8 @@
 .text-contrast:hover {
 	color: #ffd490;
 }
+
+div.brand > img {
+	width: 200px;
+	height: 200px;
+}
