@@ -1,0 +1,46 @@
+.features-circle {
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px auto;
+  border: 3px solid #0080ff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.features-circle-icon {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  color: #0080ff;
+  font-size: 60px;
+  display: table;
+  transition: all 0.3s ease;
+}
+.features-circle-icon i {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-contrast {
+	color: #fff;
+}
+
+.text-contrast:hover {
+	color: #80c0ff;
+}
+
+div.brand > img {
+	width: 200px;
+	height: 200px;
+}
