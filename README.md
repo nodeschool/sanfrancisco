@@ -4,7 +4,7 @@ Interested in Nodeschool SF? Take a peek at our site: http://nodeschool.io/sanfr
 
 ## Talk to Us
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/sanfrancisco)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/sanfrancisco) 
 [Github Issues](https://github.com/nodeschool/sanfrancisco/issues)
 
 ## Team
