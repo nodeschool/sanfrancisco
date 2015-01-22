@@ -1,3 +1,14 @@
+/*  pink: #D1026C;
+    orange: #ea7432;
+    yellow: #F2D43F;
+    green: #61C155;
+    blue: #048091;
+    purple: #492D61;
+*/
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
 .features-circle {
   display: block;
   position: relative;
@@ -6,11 +17,38 @@
   width: 150px;
   height: 150px;
   margin: 0 auto 30px auto;
-  border: 3px solid #0080ff;
+  border-width: 3px;
+  border-style: solid;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.features-circle.green {
+  border-color: #61C155;
+}
+.features-circle.yellow {
+  border-color: #F2D43F;
+}
+.features-circle.purple {
+  border-color: #492D61;
+}
+
+.pink {
+  color: #D1026C;
+}
+
+.yellow {
+  color: #F2D43F;
+}
+
+.green {
+  color: #61C155;
+}
+
+.purple {
+  color: #492D61;
 }
 
 .features-circle-icon {
@@ -22,7 +60,6 @@
   top: 50%;
   margin-left: -50px;
   margin-top: -50px;
-  color: #0080ff;
   font-size: 60px;
   display: table;
   transition: all 0.3s ease;
@@ -35,6 +72,7 @@
 
 .text-contrast {
 	color: #fff;
+  text-decoration: underline;
 }
 
 .text-contrast:hover {
@@ -42,21 +80,19 @@
 }
 
 div.brand > img {
-	width: 200px;
+	width: auto;
 	height: 200px;
 }
 
 .intro {
-  height: 400px;
+  height: 500px;
   margin-top: 65px;
-  /*position: relative;*/
 }
 
-.hero-image {
-  background: #D1026C url(../images/gg-bridge.jpg) 0 0 no-repeat;
-  background-size: 200% auto;
+.banner-color {
+  background: #048091;
   left: 0;
-  min-height: 400px;
+  min-height: 500px;
   min-width: 100%;
   position: absolute;
   top: 0;
@@ -66,21 +102,22 @@ div.brand > img {
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
   position: relative;
   top: 0;
   z-index: 10;
 }
 
-
-/* GLOBAL STYLES
--------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+}
+
+a {
+  color: #ea7432;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -108,6 +145,21 @@ body {
   width: auto;
 }
 
+.navbar-default .navbar-brand {
+  color: #ea7432;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ea7432;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ea7432;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -130,13 +182,29 @@ body {
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
+
+  /* rainbow styles via http://codepen.io/monstersaurous/pen/JKAHa :) */
+
+  border: none;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+  background-image: -moz-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+  background-image: -ms-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+  background-image: -o-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), #ccc 15%, #ccc 85%, rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+.events {
+  background: #492D61;
+  color: #fff;
+  padding: 50px 0;
+  position: relative;
+}
+
+.events h2 {
+  margin-top: 0;
+}
+.events h3 {
+  margin-bottom: 30px;
 }
 
 
@@ -173,10 +241,6 @@ body {
     font-size: 50px;
   }
 
-  .intro {
-    position: static;
-  }
-
   .hero-image {
     background-size: 100%;
     min-height: 500px;
@@ -189,7 +253,4 @@ body {
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
 }
