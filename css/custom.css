@@ -86,15 +86,12 @@ div.brand > img {
 
 .intro {
   background: #048091;
-  height: 500px;
-  margin-top: 65px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .banner-color {
   background: #048091;
   left: 0;
-  min-height: 500px;
   min-width: 100%;
   position: absolute;
   top: 0;
@@ -104,17 +101,19 @@ div.brand > img {
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   position: relative;
   top: 0;
   z-index: 10;
+  background-image: url(https://farm8.staticflickr.com/7436/11828989056_ff1dc695c2_o.jpg);
+  background-size: 100%;
+  background-position: center;
 }
 
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
+  padding-top: 65px;
   color: #5a5a5a;
 }
 
@@ -165,6 +164,9 @@ a {
 /* Information
 -------------------------------------------------- */
 
+.information {
+  padding-bottom: 40px;
+}
 /* Center align the text within the three columns below the carousel */
 .information .col-lg-4 {
   margin: 70px 0;
@@ -196,10 +198,12 @@ a {
 }
 
 .events {
-  background: #492D61;
   color: #fff;
+  background-color: #048091;
   padding: 50px 0;
-  position: relative;
+  background-image: url(https://farm6.staticflickr.com/5080/14326142444_15d5fc4877_k.jpg);
+  background-size: 100%;
+  background-position: center;
 }
 
 .events h2 {
@@ -208,19 +212,19 @@ a {
 .events h3 {
   margin-bottom: 30px;
 }
-
-.events .lead {
-  font-size: 28px;
-  margin-bottom : 12px;
+.events .students,
+.events .mentors {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #000;
+  opacity: 0.75;
 }
 
-.events .students {
-  margin-bottom: 40px;
-}
 
 /* Footer
 ------------------------- */
 footer {
+  font-size: 12px;
   color: #888;
   margin-top: 50px;
 }
@@ -265,18 +269,6 @@ footer {
 
   .hero-image {
     background-size: 100%;
-    min-height: 500px;
     min-width: 100%;
-  }
-
-  .intro-info {
-    height: 500px;
-  }
-}
-
-@media (min-width: 992px) {
-
-  .events .students {
-    margin-bottom: 40px;
   }
 }
