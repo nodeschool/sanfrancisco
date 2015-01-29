@@ -2,7 +2,7 @@ var gulp = require('gulp')
 var imagemin = require('gulp-imagemin')
 
 var paths = {
-  img: ['image-src/**/*.jpg']
+  img: ['image-src/**/*']
 }
 
 gulp.task('img', function() {

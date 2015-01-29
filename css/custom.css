@@ -105,7 +105,7 @@ div.brand > img {
   position: relative;
   top: 0;
   z-index: 10;
-  background-image: url(https://farm8.staticflickr.com/7436/11828989056_ff1dc695c2_o.jpg);
+  background-image: url('../images/bridge.jpg');
   background-size: 100%;
   background-position: center;
 }
@@ -201,7 +201,7 @@ a {
   color: #fff;
   background-color: #048091;
   padding: 50px 0;
-  background-image: url(https://farm6.staticflickr.com/5080/14326142444_15d5fc4877_k.jpg);
+  background-image: url('../images/park.jpg');
   background-size: 100%;
   background-position: center;
 }
