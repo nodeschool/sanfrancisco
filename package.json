@@ -1,20 +1,17 @@
 {
-  "name": "nodeschoolcps",
+  "name": "nodeschoolsf",
   "version": "1.0.0",
-  "description": "nodeschool.io/campinas webpage",
-  "scripts": {
-    "start": "http-server"
-  },
+  "description": "nodeschool.io/sanfrancisco webpage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodeschool/campinas.git"
+    "url": "https://github.com/nodeschool/sanfrancisco.git"
   },
-  "author": "Filipe Oliveira",
-  "license": "BSD",
+  "author": "Andrew Duquet",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nodeschool/campinas/issues"
+    "url": "https://github.com/nodeschool/sanfrancisco/issues"
   },
-  "homepage": "https://nodeschool.io/campinas",
+  "homepage": "https://nodeschool.io/sanfrancisco",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-imagemin": "^2.1.0",
