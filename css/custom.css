@@ -106,7 +106,6 @@ div.brand > img {
   top: 0;
   z-index: 10;
   background-image: url('../images/bridge.jpg');
-  background-size: 100%;
   background-position: center;
 }
 
@@ -202,7 +201,6 @@ a {
   background-color: #048091;
   padding: 50px 0;
   background-image: url('../images/park.jpg');
-  background-size: 100%;
   background-position: center;
 }
 
@@ -265,10 +263,5 @@ footer {
 
   .featurette-heading {
     font-size: 50px;
-  }
-
-  .hero-image {
-    background-size: 100%;
-    min-width: 100%;
   }
 }
