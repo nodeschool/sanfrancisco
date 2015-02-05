@@ -1,6 +1,6 @@
 # NodeSchool San Francisco
 
-Interested in Nodeschool SF? Take a peek at our site: http://nodeschool.io/sanfrancisco/
+Interested in NodeSchool SF? Take a peek at our site: http://nodeschool.io/sanfrancisco/
 
 ## Talk to Us
 
