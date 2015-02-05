@@ -11,11 +11,5 @@
   "bugs": {
     "url": "https://github.com/nodeschool/sanfrancisco/issues"
   },
-  "homepage": "https://nodeschool.io/sanfrancisco",
-  "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-imagemin": "^2.1.0",
-    "http-server": "^0.7.2",
-    "imagemin": "^3.1.0"
-  }
+  "homepage": "https://nodeschool.io/sanfrancisco"
 }
