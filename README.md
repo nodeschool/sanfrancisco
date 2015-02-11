@@ -14,4 +14,5 @@ Interested in NodeSchool SF? Take a peek at our site: http://nodeschool.io/sanfr
 * Andrew Duquet, [andrew.duquet@gmail.com](mailto:andrew.duquet@gmail.com)
 * Lydia Katsamberis, [@llkats](http://www.twitter.com/llkats)
 * Reza Akhavan, [@jedireza](https://twitter.com/jedireza/)
+* Richard Littauer, [@richlitt](https://twitter.com/richlitt)
 
