@@ -1,0 +1,134 @@
+/*
+ * top level
+ */
+body {
+  padding-top: 50px;
+}
+
+/*
+ * navbar
+ */
+.navbar {
+  font-family: 'Varela Round', sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+.navbar .navbar-brand {
+  color: #ea7432;
+}
+.navbar li a,
+.navbar li a:link,
+.navbar li a:visited {
+  color: #ea7432;
+}
+
+/*
+ * top jumbotron
+ */
+.jumbotron-top {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #999;
+  background-image: url('jumbotron-top-bg.jpg');
+  background-position: middle center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 0;
+}
+.jumbotron-top h1 {
+  color: #fff;
+  font-size: 2.5em;
+}
+.jumbotron-top h1 span {
+  background-color: #000;
+  opacity: 0.75;
+  padding: 10px;
+  border-radius: 10px;
+}
+.jumbotron-top .logo {
+  max-width: 175px
+}
+@media (max-width: 768px) { /* for tablets and phones */
+  .jumbotron-top {
+    background-position: center center;
+    background-size: auto 100%;
+  }
+}
+
+/*
+ * features
+ */
+.features {
+  margin-top: 20px;
+}
+.features h3 {
+  font-family: 'Varela Round', sans-serif;
+}
+.features .fa-purple {
+  color: #492D61;
+}
+.features .fa-yellow {
+  color: #F2D43F;
+}
+.features .fa-green {
+  color: #61C155;
+}
+.features .fa-blue {
+  color: #409BA8;
+}
+.features .fa-orange {
+  color: #F38B22;
+}
+
+/*
+ * join-us jumbotron
+ */
+.jumbotron-join-us {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #999;
+  background-image: url('jumbotron-workshop-2015-02-07.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 0;
+  min-height: 400px;
+  position: relative;
+}
+.jumbotron-join-us h2 {
+  color: #fff;
+  font-size: 2.5em;
+  position: absolute;
+  margin: auto;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+.jumbotron-join-us a,
+.jumbotron-join-us a:link,
+.jumbotron-join-us a:visited {
+  color: #fff;
+}
+.jumbotron-join-us a:hover {
+  text-decoration: none;
+}
+.jumbotron-join-us h2 span {
+  background-color: #000;
+  opacity: 0.75;
+  padding: 10px;
+  border-radius: 10px;
+}
+.jumbotron-join-us .logo {
+  max-width: 175px
+}
+@media (max-width: 768px) { /* for tablets and phones */
+  .jumbotron-join-us {
+    background-position: top center;
+    background-size: auto 100%;
+  }
+}
+
+/*
+ * other stuff
+ */
+.rainbow-row {
+  height: 10px;
+  background-image: url('rainbow-bg.gif');
+}

@@ -1,146 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-
     <title>NodeSchool San Francisco</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap-readable.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="assets/index.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-
   <body>
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!--navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">NodeSchool SF</a>
+          <span class="navbar-brand">NodeSchool SF</span>
         </div>
-            <div id="navbar" class="navbar-collapse collapse pull-right">
-              <ul class="nav navbar-nav">
-                <li><a href="#information">Information</a></li>
-                <li><a href="#events">Events</a></li>
-              </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/nodeschool/sanfrancisco/issues"><i class="fa fa-lg fa-github"></i> Forum</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-
-  <!-- Hero Image and Introduction
-  ================================================== -->
-  <section id="home" class="intro">
-    <div class="intro-info">
-      <div class="brand">
-        <img src="images/logo.png" alt="NodeSchool San Francisco"/>
-      </div>
-      <h1>NodeSchool San Francisco</h1>
-      <p>
-        <a href="#events" class="text-contrast">Help us plan the next event!</a> &bull; <a href="https://github.com/nodeschool/sanfrancisco/tree/gh-pages" class="text-contrast">Want to get involved?</a>
-      </p>
-    </div>
-  </section><!-- /.intro -->
-
-  <!-- Information and featurettes
-  ================================================== -->
-  <section id="information" class="container information">
-    <div class="row">
-      <div class="col-md-4">
-        <span class="features-circle purple">
-          <span class="features-circle-icon">
-            <i class="glyphicon glyphicon-wrench"></i>
-          </span>
-        </span>
-        <h2>Learn JavaScript</h2>
-        <p>NodeSchool is for people completely new to programming, as well as experienced programmers looking to try a new language or skillset. Knowing some JavaScript will help, but is not necessary to attend a NodeSchool event.</p>
-      </div><!-- /.col-md-4 -->
-      <div class="col-md-4">
-        <span class="features-circle yellow">
-          <span class="features-circle-icon">
-            <i class="glyphicon glyphicon-road"></i>
-          </span>
-        </span>
-        <h2>Self-Directed</h2>
-        <p>NodeSchool lessons are self-guided. No boring lectures. All challenges are open source and are available online at <a href="http://nodeschool.io/" target="_blank">nodeschool.io</a>. This means that you can continue learning after the event.</p>
-      </div><!-- /.col-md-4 -->
-      <div class="col-md-4">
-        <span class="features-circle green">
-          <span class="features-circle-icon">
-            <i class="glyphicon glyphicon-heart"></i>
-          </span>
-        </span>
-        <h2>For All</h2>
-        <p>We think that learning to program is great and everyone should feel welcome at our event. This includes our expectation that all participants be kind to each other and respect our <a href="https://github.com/nodeschool/sanfrancisco/blob/gh-pages/code-of-conduct.md">Code of Conduct</a>.</p>
-      </div><!-- /.col-md-4 -->
-    </div><!-- /.row -->
-  </section>
-
-  <section id="events" class="events">
-    <div class="row featurette text-center">
-      <div class="col-md-12">
-        <h2 class="featurette-heading">Join the Adventure!</h2>
-        <h3>Help us plan our next event!</h3>
-      </div>
-      <div class="col-md-4 col-md-offset-1 students">
-        <p class="lead">Students</p>
-        <p>Ready to learn you a Node for great good?</p>
-        <p>Next event will be announced soon!</p>
-      </div>
-      <div class="col-md-4 col-md-offset-2 mentors">
-        <p class="lead">Mentors</p>
-        <p>Calling all mentors and volunteers!</p>
-        <p><a href="https://github.com/nodeschool/sanfrancisco/issues/41">Join the conversation.</a></p>
+    <!--jumbotron-top-->
+    <div class="jumbotron jumbotron-top">
+      <div class="container text-center">
+        <img class="logo" src="assets/logo.png" alt="NodeSchool San Francisco">
+        <h1><span>San Francisco</span></h1>
       </div>
     </div>
-  </section>
+    <div class="rainbow-row"></div>
 
-  <section class="container">
-    <footer>
-      <p class="pull-right to-top"><a href="#home">Go to the top</a></p>
-      <div class="col-sm-9 pull-left">
-        <h4>NodeSchool San Francisco</h4>
-        <p class="footer-copyright">HTML, CSS, images, and design are based on a design forked from
-          <a href="http://nodeschool.io/campinas/">NodeSchool Campinas</a>, which was
-          <a href="http://nodeschool.io/berlin/">forked from NodeSchool Berlin</a>, which was, in turn,
-          <a href="http://github.com/pikkupanda/pikkupanda.github.io">forked from pikkupanda.de</a> which was, in turn,
-          <a href="https://github.com/maxogden/csvconf.com">forked from csvconf.com</a> which was, in turn,
-          <a href="https://github.com/sudomesh/peoplesopen-front">forked from PeoplesOpen.Net</a> which was, in turn,
-          forked from <a href="http://martini.codegangsta.io/">Martini’s template</a>, reused here under the MIT License.
-          It's a long story. Continue writing it by forking this site on <a href="https://github.com/nodeschool/sanfrancisco">GitHub</a>.
-        </p>
-        <p>
-        Image credit: <a href="https://www.flickr.com/photos/davidyuweb/11828989056">David Yu</a> &bull; <a href="https://www.flickr.com/photos/jedireza/14326142444/">Reza Akhavan</a>
-        </p>
+    <!--features-->
+    <div class="container features">
+      <div class="row">
+        <!--learn-js-->
+        <div class="col-md-4 text-center">
+          <span class="fa-stack fa-5x fa-purple">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3>Learn JavaScript</h3>
+          <p class="lead">NodeSchool is for people totally new to
+          programming, as well as experienced programmers looking to try a new
+          language or skillset. Knowing some JavaScript will help, but is not
+          necessary.</p>
+        </div>
+        <!--self-directed-->
+        <div class="col-md-4 text-center">
+          <span class="fa-stack fa-5x fa-yellow">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-road fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3>Self-Directed</h3>
+          <p class="lead">NodeSchool workshops are self-guided. No boring
+          lectures. All challenges are open source and are available online at
+          <a href="http://nodeschool.io/">nodeschool.io</a>. This means that
+          you can practice anytime.</p>
+        </div>
+        <!--for-all-->
+        <div class="col-md-4 text-center">
+          <span class="fa-stack fa-5x fa-green">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3>For Everyone</h3>
+          <p class="lead">We think that learning to program is great and
+          everyone should feel welcome at our event. This includes our
+          expectation that all participants be kind to each other and respect
+          our <a href="https://github.com/nodeschool/sanfrancisco/blob/gh-pages/code-of-conduct.md">Code of Conduct</a>.</p>
+        </div>
       </div>
-    </footer>
-  </section><!-- /.container -->
+      <div class="row">
+        <!--students-->
+        <div class="col-md-6 text-center">
+          <span class="fa-stack fa-5x fa-blue">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3>Students</h3>
+          <p class="lead">Ready to learn you a Node for great good? Stay tuned
+          we're currently planning our next event.</p>
+        </div>
+        <!--mentors-->
+        <div class="col-md-6 text-center">
+          <span class="fa-stack fa-5x fa-orange">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+          </span>
+          <h3>Mentors</h3>
+          <p class="lead">Calling all mentors and volunteers!
+          <a href="https://github.com/nodeschool/sanfrancisco/issues/41">
+          Join the conversation.</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="rainbow-row"></div>
 
+    <!--jumbotron-join-->
+    <div class="jumbotron jumbotron-join-us" onclick="location.href='assets/jumbotron-workshop-2015-02-07.jpg';">
+      <div class="container text-center">
+        <h2><span>Feb 7th 2015</span></h2>
+      </div>
+    </div>
+    <div class="rainbow-row"></div>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/google.analytics.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!--javascriptz-->
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,12 +1,16 @@
 {
   "name": "nodeschoolsf",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "nodeschool.io/sanfrancisco webpage",
   "repository": {
     "type": "git",
     "url": "https://github.com/nodeschool/sanfrancisco.git"
   },
-  "author": "Andrew Duquet",
+  "contributors": [
+    "Andrew Duquet <andrew.duquet@gmail.com> (mailto:andrew.duquet@gmail.com)",
+    "Lydia Katsamberis <@llkats> (http://www.twitter.com/llkats)",
+    "Reza Akhavan <@jedireza> (https://twitter.com/jedireza/)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nodeschool/sanfrancisco/issues"
