@@ -54,6 +54,44 @@ body {
 }
 
 /*
+ * event jumbotron
+ */
+.jumbotron-next-event {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #eee;
+  background-position: middle center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 0;
+}
+.jumbotron-next-event h2 {
+  font-size: 2em;
+}
+.jumbotron-next-event h3 {
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+.jumbotron-next-event ul {
+}
+.jumbotron-next-event ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding-right: 20px;
+  border-right: 2px solid #ccc;
+}
+.jumbotron-next-event ul li:last-child {
+  border-right: none;
+  margin-right: 0;
+}
+@media (max-width: 768px) { /* for tablets and phones */
+  .jumbotron-next-event {
+    background-position: center center;
+    background-size: auto 100%;
+  }
+}
+
+/*
  * features
  */
 .features {
