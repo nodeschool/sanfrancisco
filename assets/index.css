@@ -59,13 +59,11 @@ body {
 .jumbotron-next-event {
   font-family: 'Varela Round', sans-serif;
   background-color: #eee;
-  background-position: middle center;
-  background-repeat: no-repeat;
-  background-size: 100%;
   margin-bottom: 0;
 }
 .jumbotron-next-event h2 {
   font-size: 2em;
+  line-height: 1.5;
 }
 .jumbotron-next-event h3 {
   font-size: 1.5em;
