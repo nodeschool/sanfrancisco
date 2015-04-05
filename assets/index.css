@@ -117,10 +117,15 @@ body {
 /*
  * join-us jumbotron
  */
+.jumbotron-workshop-001 {
+  background-image: url('jumbotron-workshop-2015-02-07.jpg');
+}
+.jumbotron-workshop-002 {
+  background-image: url('jumbotron-workshop-2015-03-28.jpg');
+}
 .jumbotron-join-us {
   font-family: 'Varela Round', sans-serif;
   background-color: #999;
-  background-image: url('jumbotron-workshop-2015-02-07.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100%;
