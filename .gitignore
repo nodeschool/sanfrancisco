@@ -218,3 +218,6 @@ FakesAssemblies/
 
 # OSX
 .DS_Store
+
+# Jekyll
+_site
