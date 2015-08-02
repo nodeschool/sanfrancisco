@@ -173,3 +173,9 @@ body {
   height: 10px;
   background-image: url('rainbow-bg.gif');
 }
+
+.caption-bg {  /* picture captions */
+  background-color: #000;
+  opacity: 0.75;
+  border-radius: 10px;
+}
