@@ -28,3 +28,4 @@ _Note: currency is in USD. Negative amounts are wrapped in parentheses._
 | 2015-03-28 | [Ticket sales](assets/2015-03-28__tito_report.png) | $170.34 | $215.72 |
 | 2015-03-28 | [Pizza order](assets/2015-03-28__pizza.jpg) | ($199.17) | $16.55 |
 | 2015-05-07 | [Sticker order](assets/2015-05-07__stickermule.png) | ($57.00) | ($40.45) |
+| 2015-05-23 | [Ticket sales](assets/2015-05-23__tito_report.png) | $132.19 | $91.74
