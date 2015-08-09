@@ -1,7 +1,10 @@
 {
-  "name": "nodeschoolsf",
+  "name": "NodeSchool SF",
   "version": "2.0.0",
-  "description": "nodeschool.io/sanfrancisco webpage",
+  "description": "The NodeSchool SF chapter website.",
+  "scripts": {
+    "start": "http-server ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nodeschool/sanfrancisco.git"
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nodeschool/sanfrancisco/issues"
   },
-  "homepage": "https://nodeschool.io/sanfrancisco"
+  "homepage": "https://nodeschool.io/sanfrancisco",
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  }
 }
