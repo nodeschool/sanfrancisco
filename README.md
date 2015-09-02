@@ -16,7 +16,7 @@ directly.
 
 ## Team
 
- - Lydia Katsamberis, [Twitter](https://twitter.com/llkats/)
+ - Lydia Kats, [Twitter](https://twitter.com/llkats/)
  - Reza Akhavan, [GitHub](https://github.com/jedireza/),
    [Twitter](https://twitter.com/jedireza/), [Email](mailto:jedireza@gmail.com)
 
