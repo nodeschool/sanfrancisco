@@ -7,8 +7,7 @@ Harassment includes offensive verbal or written comments related to sex, gender 
 If a community member engages in harassing behavior, the organizers of **NodeSchool San Francisco** may take any action they deem appropriate, including warning the offender or expulsion from the community. If you are being harassed, notice that someone else is being harassed, or have any concerns, please contact an organizer immediately.
 
 ## Organizers
-Andrew Duquet, [andrew.duquet@gmail.com](mailto:andrew.duquet@gmail.com)
-Lydia Katsamberis, [@llkats](http://www.twitter.com/llkats)
+Lydia Kats, [@llkats](http://www.twitter.com/llkats)
 Reza Akhavan, [@jedireza](https://twitter.com/jedireza/)
 
 Website: [http://nodeschool.io/sanfrancisco/](http://nodeschool.io/sanfrancisco/)
