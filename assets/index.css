@@ -169,13 +169,18 @@ body {
 /*
  * other stuff
  */
-.rainbow-row {
-  height: 10px;
-  background-image: url('rainbow-bg.gif');
-}
-
 .caption-bg {  /* picture captions */
   background-color: #000;
   opacity: 0.75;
   border-radius: 10px;
 }
+.img-style {
+  /*width: auto;*/
+  height: 334.797px;
+  max-height: 334.797px;
+}
+.rainbow-row {
+  height: 10px;
+  background-image: url('rainbow-bg.gif');
+}
+
