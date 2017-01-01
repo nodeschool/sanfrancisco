@@ -39,8 +39,7 @@ fs.readdir('./partials/', (err, partials) => {
         if (err) console.log(err, 'error with writing index.html')
 
         console.log('all done!')
-      })
-    })
-  })
-})
-
+      });
+    });
+  });
+});
