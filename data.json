@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "date": "YYYY-MM-DD T HH:MM:SS", // duration?
+      "focusedSession": {
+        "author": "NodeBots",
+        "desc": "make an LED blink",
+        "image": "someimage.png",
+        "title": "LEDs are cool"
+      },
+      "location": "mozilla",
+      "registerLinks": {
+        "mentor": "http://github",
+        "student": "http://tito"
+      }
+    }
+  ],
+  "images": [
+    {
+      "title": "people hacking",
+      "url": "twitter.com/image/1.png"
+    }
+  ],
+  "locations": {
+    "mozilla": {
+      "address": "2 harrison",
+      "lat": 0,
+      "lon": 0,
+      "parkingInfo": "garage"
+    }
+  },
+  "mentors": [
+    "jedireza", "llkats", "samarthgulati", "tlhunter"
+  ]
+}
