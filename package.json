@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "The NodeSchool SF chapter website.",
   "scripts": {
-    "start": "http-server ."
+    "start": "http-server .",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
