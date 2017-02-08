@@ -23,7 +23,7 @@ directly.
 
 ## Contributing to the website
 
-The website is just basic HTML, CSS and JavaScript. It runs on [GitHub
+The website is static HTML, CSS and JavaScript. It runs on [GitHub
 Pages](https://pages.github.com/).
 
 ### Running locally

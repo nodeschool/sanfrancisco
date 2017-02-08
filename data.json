@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "date": "YYYY-MM-DD T HH:MM:SS", // duration?
+      "date": "2017-01-28T13:00:00",
       "focusedSession": {
         "author": "NodeBots",
         "desc": "make an LED blink",
