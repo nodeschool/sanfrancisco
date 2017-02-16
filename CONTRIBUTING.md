@@ -80,4 +80,4 @@ In both contexts, please follow the conduct guidelines above.
 
 # Attribution
 
-This document on contribution was forked from (CONTRIBUTING.md)[https://github.com/jsdnxx/CONTRIBUTING.md]. Thanks!
+This document on contribution was forked from [CONTRIBUTING.md](https://github.com/jsdnxx/CONTRIBUTING.md). Thanks!
