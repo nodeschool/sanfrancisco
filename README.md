@@ -42,16 +42,29 @@ Then you can run the website via:
 ```bash
 $ npm start
 
-# > nodeschoolsf@2.0.0 start /projects/sanfrancisco
-# > http-server .
-
-# Starting up http-server, serving . on: http://0.0.0.0:8080
-# Hit CTRL-C to stop the server
+[08:25:04] Using gulpfile ~/Sites/sanfrancisco/gulpfile.js
+[08:25:04] Starting 'hbs:compile'...
+[08:25:04] Starting 'watch'...
+[08:25:04] Finished 'watch' after 7.45 ms
+[08:25:04] Starting 'browser-sync'...
+[08:25:04] Finished 'browser-sync' after 14 ms
+[08:25:04] Finished 'hbs:compile' after 65 ms
+[08:25:04] Starting 'default'...
+[08:25:04] Finished 'default' after 6.21 μs
+[BS] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.43.82:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.43.82:3001
+ --------------------------------------
+[BS] Serving files from: ./dist
 ```
 
-Now you can visit `http://localhost:8080/` in your browser to see the website.
+Your default browser will automatically open and will auto-reload for any change.
 
-By default it will start the server on port `8080`. If you want to specify a
+By default it will start the server on port `3000`. If you want to specify a
 different port use:
 
 ```bash
@@ -60,6 +73,9 @@ $ PORT=3000 npm start
 
 Where `3000` is any port you choose.
 
+### Performing a build
+
+If you just need to build the application for prodution you can use `npm run build`. This will compile handlebars templates and move them in the `dist` folder.
 
 ## Special thanks
 

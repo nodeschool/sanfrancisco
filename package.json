@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "description": "The NodeSchool SF chapter website.",
   "scripts": {
-    "start": "http-server .",
-    "build": "node build.js"
+    "start": "gulp",
+    "build": "gulp hbs:compile"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
   },
   "homepage": "https://nodeschool.io/sanfrancisco",
   "devDependencies": {
-    "handlebars": "^4.0.6",
-    "http-server": "^0.8.0"
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2"
   }
 }
