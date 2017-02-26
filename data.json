@@ -1,35 +1,42 @@
 {
   "events": [
     {
-      "date": "2017-01-28T13:00:00",
+      "date": "2017-02-25T13:00:00",
       "focusedSession": {
-        "author": "NodeBots",
-        "desc": "make an LED blink",
-        "image": "someimage.png",
-        "title": "LEDs are cool"
+        "author": "Bryan Hughes",
+        "desc": "Get up and started hacking Arduino kits (provided by NodeBots) using NodeJS",
+        "image": "nebrius@github",
+        "title": "NodeBots"
       },
       "location": "mozilla",
       "registerLinks": {
-        "mentor": "http://github",
-        "student": "http://tito"
+        "mentor": "https://github.com/nodeschool/sanfrancisco/issues/167",
+        "student": "https://ti.to/nodeschoolsf/jan-28th-2017"
+      }
+    }, {
+      "date": "2017-01-28T13:00:00",
+      "location": "mozilla",
+      "registerLinks": {
+        "mentor": "https://github.com/nodeschool/sanfrancisco/issues/167",
+        "student": "https://ti.to/nodeschoolsf/jan-28th-2017"
       }
     }
   ],
   "images": [
     {
-      "title": "people hacking",
-      "url": "twitter.com/image/1.png"
+      "title": "People Hacking [General Session - Jan 28th '17]",
+      "url": "https://pbs.twimg.com/media/C3S8zr0VMAAnD9c.jpg"
     }
   ],
   "locations": {
     "mozilla": {
-      "address": "2 harrison",
-      "lat": 0,
-      "lon": 0,
+      "address": "2 Harrison Street, Suite 175, San Francisco, CA 94105",
+      "lat": 37.7895597,
+      "lon": -122.3889584,
       "parkingInfo": "garage"
     }
   },
   "mentors": [
-    "jedireza", "llkats", "samarthgulati", "tlhunter"
+    "jedireza", "llkats", "skipzero", "Trott", "cachrisman", "Xabadu", "JacopoDaeli", "feross", "tlhunter", "BerkeleyTrue", "itsmed", "samccone", "samarthgulati", "Shinobi881", "bengl"
   ]
 }
