@@ -23,10 +23,16 @@ directly.
 
 ## Contributing to the website
 
+### :tada: :tada: :tada: We are refactoring the website!! :tada: :tada: :tada: 
+
+Please see our [main organizing thread](https://github.com/nodeschool/sanfrancisco/issues/172), [contributing guidelines](https://github.com/nodeschool/sanfrancisco/blob/new-site/CONTRIBUTING.md), and [open issues](https://github.com/nodeschool/sanfrancisco/issues?q=is%3Aissue+is%3Aopen+label%3Awebsite-refresh) to contribute. To check out the latest revision of the site, fork this repo and check out the `new-site` branch.
+
+### Old website setup instructions
+
 The website is just basic HTML, CSS and JavaScript. It runs on [GitHub
 Pages](https://pages.github.com/).
 
-### Running locally
+#### Running locally
 
 When you're editing the website it's convenient to run the website locally to
 see your changes.
