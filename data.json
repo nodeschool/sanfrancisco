@@ -1,6 +1,19 @@
 {
   "events": [
     {
+      "date": "2017-03-25T13:00:00",
+      "focusedSession": {
+        "author": "Bryan Hughes",
+        "desc": "Get up and started hacking Arduino kits (provided by NodeBots) using NodeJS",
+        "image": "nebrius@github",
+        "title": "NodeBots"
+      },
+      "location": "tbd",
+      "registerLinks": {
+        "mentor": "https://github.com/nodeschool/sanfrancisco/issues/193",
+        "student": "https://ti.to/nodeschoolsf/mar-25th-2017"
+      }
+    }, {
       "date": "2017-02-25T13:00:00",
       "focusedSession": {
         "author": "Bryan Hughes",
@@ -10,8 +23,8 @@
       },
       "location": "mozilla",
       "registerLinks": {
-        "mentor": "https://github.com/nodeschool/sanfrancisco/issues/167",
-        "student": "https://ti.to/nodeschoolsf/jan-28th-2017"
+        "mentor": "https://github.com/nodeschool/sanfrancisco/issues/173",
+        "student": "https://ti.to/nodeschoolsf/feb-25th-2017"
       }
     }, {
       "date": "2017-01-28T13:00:00",
