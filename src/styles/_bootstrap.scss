@@ -1,7 +1,9 @@
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *
+ * Node School SF
+ * Custom bootstrap compiling. turn on imports for components used in site.
+ * I've turned off ones I assume won't be used or at least not for a while. feel free to modify
+ *
  */
 
 // Core variables and mixins
@@ -29,16 +31,16 @@
 @import "bootstrap/input-groups";
 @import "bootstrap/navs";
 @import "bootstrap/navbar";
-@import "bootstrap/breadcrumbs";
-@import "bootstrap/pagination";
+// @import "bootstrap/breadcrumbs";
+// @import "bootstrap/pagination";
 @import "bootstrap/pager";
 @import "bootstrap/labels";
 @import "bootstrap/badges";
 @import "bootstrap/jumbotron";
-@import "bootstrap/thumbnails";
+// @import "bootstrap/thumbnails";
 @import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
-@import "bootstrap/media";
+// @import "bootstrap/progress-bars";
+// @import "bootstrap/media";
 @import "bootstrap/list-group";
 @import "bootstrap/panels";
 @import "bootstrap/responsive-embed";
@@ -46,10 +48,10 @@
 @import "bootstrap/close";
 
 // Components w/ JavaScript
-@import "bootstrap/modals";
+// @import "bootstrap/modals";
 @import "bootstrap/tooltip";
 @import "bootstrap/popovers";
-@import "bootstrap/carousel";
+// @import "bootstrap/carousel";
 
 // Utility classes
 @import "bootstrap/utilities";
