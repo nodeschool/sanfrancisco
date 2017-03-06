@@ -42,16 +42,12 @@ Work is being done on the `new-site` branch in the `nodeschool/sanfrancisco` [re
 
 # The Build System
 
-<<<<<<< HEAD
-**TODO:** describe the build system for contributors once we have one
-=======
 The build system is leveraging [Gulp](http://gulpjs.com/) to compile handlebars templates and provide a pleasant development environment equipped with live-reload.
 
 At the moment there are two commands provided:
 
 - `npm start`: To run the application in development mode, watch for file changes and reload the browser.
 - `npm run build`: Compile handlebars templates.
->>>>>>> de1f10fb9b78f5fb2df12b1a5d106a7cadf13232
 
 # Pull Requests
 
