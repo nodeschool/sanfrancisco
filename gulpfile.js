@@ -37,10 +37,10 @@ const path = {
     dist: './dist/assets',
   },
   vendors: {
-    src: './src/vendors'
-  }
+    src: './src/vendors',
+  },
 };
-console.log($plug)
+
 // copy assets to dist folder
 gulp.task('assets', () => {
   return gulp.src('./src/assets/**/*')
@@ -49,11 +49,11 @@ gulp.task('assets', () => {
 
 // copy styles to dist folder
 gulp.task('styles', () => {
-  return gulp.src('./src/styles/**/*')
+  return gulp.src('./src/styles/main.scss')
     .pipe($plug.sass({
       includePaths: `${path.vendors.src}/bootstrap/assets/stylesheets`,
     })
-      .on('error', sass.logError))
+      .on('error', $plug.sass.logError))
     .pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.stream());
 });

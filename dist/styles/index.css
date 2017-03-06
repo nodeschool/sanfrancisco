@@ -2,24 +2,22 @@
  * top level
  */
 body {
-  padding-top: 50px;
-}
+  padding-top: 50px; }
 
 /*
  * navbar
  */
 .navbar {
   font-family: 'Varela Round', sans-serif;
-  border-bottom: 1px solid #ccc;
-}
+  border-bottom: 1px solid #ccc; }
+
 .navbar .navbar-brand {
-  color: #ea7432;
-}
+  color: #ea7432; }
+
 .navbar li a,
 .navbar li a:link,
 .navbar li a:visited {
-  color: #ea7432;
-}
+  color: #ea7432; }
 
 /*
  * top jumbotron
@@ -27,31 +25,30 @@ body {
 .jumbotron-top {
   font-family: 'Varela Round', sans-serif;
   background-color: #999;
-  background-image: url('jumbotron-top-bg.jpg');
+  background-image: url("jumbotron-top-bg.jpg");
   background-position: middle center;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
+
 .jumbotron-top h1 {
   color: #fff;
-  font-size: 2.5em;
-}
+  font-size: 2.5em; }
+
 .jumbotron-top h1 span {
   background-color: #000;
   opacity: 0.75;
   padding: 10px;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
+
 .jumbotron-top .logo {
-  max-width: 175px
-}
-@media (max-width: 768px) { /* for tablets and phones */
+  max-width: 175px; }
+
+@media (max-width: 768px) {
+  /* for tablets and phones */
   .jumbotron-top {
     background-position: center center;
-    background-size: auto 100%;
-  }
-}
+    background-size: auto 100%; } }
 
 /*
  * event jumbotron
@@ -59,70 +56,66 @@ body {
 .jumbotron-next-event {
   font-family: 'Varela Round', sans-serif;
   background-color: #eee;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
+
 .jumbotron-next-event h2 {
   font-size: 2em;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
+
 .jumbotron-next-event h3 {
   font-size: 1.5em;
-  padding-top: 20px;
-}
-.jumbotron-next-event ul {
-}
+  padding-top: 20px; }
+
 .jumbotron-next-event ul li {
   list-style: none;
   display: inline-block;
   margin: 0 20px 0 0;
   padding-right: 20px;
-  border-right: 2px solid #ccc;
-}
+  border-right: 2px solid #ccc; }
+
 .jumbotron-next-event ul li:last-child {
   border-right: none;
-  margin-right: 0;
-}
-@media (max-width: 768px) { /* for tablets and phones */
+  margin-right: 0; }
+
+@media (max-width: 768px) {
+  /* for tablets and phones */
   .jumbotron-next-event {
     background-position: center center;
-    background-size: auto 100%;
-  }
-}
+    background-size: auto 100%; } }
 
 /*
  * features
  */
 .features {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
+
 .features h3 {
-  font-family: 'Varela Round', sans-serif;
-}
+  font-family: 'Varela Round', sans-serif; }
+
 .features .fa-purple {
-  color: #492D61;
-}
+  color: #492D61; }
+
 .features .fa-yellow {
-  color: #F2D43F;
-}
+  color: #F2D43F; }
+
 .features .fa-green {
-  color: #61C155;
-}
+  color: #61C155; }
+
 .features .fa-blue {
-  color: #409BA8;
-}
+  color: #409BA8; }
+
 .features .fa-orange {
-  color: #F38B22;
-}
+  color: #F38B22; }
 
 /*
  * join-us jumbotron
  */
 .jumbotron-workshop-001 {
-  background-image: url('jumbotron-workshop-2015-02-07.jpg');
-}
+  background-image: url("jumbotron-workshop-2015-02-07.jpg"); }
+
 .jumbotron-workshop-002 {
-  background-image: url('jumbotron-workshop-2015-03-28.jpg');
-}
+  background-image: url("jumbotron-workshop-2015-03-28.jpg"); }
+
 .jumbotron-join-us {
   font-family: 'Varela Round', sans-serif;
   background-color: #999;
@@ -131,8 +124,8 @@ body {
   background-size: 100%;
   margin-bottom: 0;
   min-height: 400px;
-  position: relative;
-}
+  position: relative; }
+
 .jumbotron-join-us h2 {
   color: #fff;
   font-size: 2.5em;
@@ -140,42 +133,40 @@ body {
   margin: auto;
   bottom: 20px;
   left: 0;
-  right: 0;
-}
+  right: 0; }
+
 .jumbotron-join-us a,
 .jumbotron-join-us a:link,
 .jumbotron-join-us a:visited {
-  color: #fff;
-}
+  color: #fff; }
+
 .jumbotron-join-us a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .jumbotron-join-us h2 span {
   background-color: #000;
   opacity: 0.75;
   padding: 10px;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
+
 .jumbotron-join-us .logo {
-  max-width: 175px
-}
-@media (max-width: 768px) { /* for tablets and phones */
+  max-width: 175px; }
+
+@media (max-width: 768px) {
+  /* for tablets and phones */
   .jumbotron-join-us {
     background-position: top center;
-    background-size: auto 100%;
-  }
-}
+    background-size: auto 100%; } }
 
 /*
  * other stuff
  */
 .rainbow-row {
   height: 10px;
-  background-image: url('rainbow-bg.gif');
-}
+  background-image: url("rainbow-bg.gif"); }
 
-.caption-bg {  /* picture captions */
+.caption-bg {
+  /* picture captions */
   background-color: #000;
   opacity: 0.75;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
