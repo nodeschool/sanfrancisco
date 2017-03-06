@@ -1,12 +1,46 @@
 'use strict';
 
 const gulp = require('gulp');
-const handlebars = require('gulp-compile-handlebars');
-const fs = require('fs')
-const rename = require('gulp-rename');
-const browserSync = require('browser-sync').create();
-const babel = require('gulp-babel');
 
+/*
+//  GLP replaces any plugin. no longer requiring assigning to a var. Now you will just use $plugin and object dot
+//  notation. $plugin.sass instead of gulp-sass, if it's two words they run together in camelCase fashion. you may
+//  overwrite the name by mapping the plugin to the new name as demonstrated below. see
+//  https://www.npmjs.com/package/gulp-load-plugins for more info.
+*/
+
+const $plug = require('gulp-load-plugins')({
+  pattern: ['gulp-*', 'gulp.*', '@*/gulp{-,.}*'],
+  rename: {
+    'gulp-compile-handlebars': 'handlebars',
+  },
+});
+
+// const handlebars = require('gulp-compile-handlebars');
+const fs = require('fs')
+// const rename = require('gulp-rename');
+const browserSync = require('browser-sync').create();
+// const babel = require('gulp-babel');
+
+// our paths object for src/dist
+const path = {
+  scripts: {
+    src: './src/scripts',
+    dist: './dist/scripts',
+  },
+  styles: {
+    src: './src/styles',
+    dist: './dist/styles',
+  },
+  assets: {
+    src: './src/assets',
+    dist: './dist/assets',
+  },
+  vendors: {
+    src: './src/vendors'
+  }
+};
+console.log($plug)
 // copy assets to dist folder
 gulp.task('assets', () => {
   return gulp.src('./src/assets/**/*')
@@ -16,6 +50,10 @@ gulp.task('assets', () => {
 // copy styles to dist folder
 gulp.task('styles', () => {
   return gulp.src('./src/styles/**/*')
+    .pipe($plug.sass({
+      includePaths: `${path.vendors.src}/bootstrap/assets/stylesheets`,
+    })
+      .on('error', sass.logError))
     .pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.stream());
 });
@@ -34,15 +72,15 @@ gulp.task('hbs:compile', () => {
   }
 
   return gulp.src('./src/index.hbs')
-    .pipe(handlebars(data, options))
-    .pipe(rename('index.html'))
+    .pipe($plug.handlebars(data, options))
+    .pipe($plug.rename('index.html'))
     .pipe(gulp.dest('./dist'));
 });
 
 // transpile ES6 javascript
 gulp.task('scripts', () => {
   return gulp.src('./src/scripts/*.js')
-    .pipe(babel({
+    .pipe($plug.babel({
         presets: ['es2015']
     }))
     .pipe(gulp.dest('./dist/scripts'));
