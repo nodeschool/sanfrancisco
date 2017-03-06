@@ -5,6 +5,9 @@
 logs
 *.log
 
+# NVM
+.nvmrc
+
 # Runtime data
 pids
 *.pid
