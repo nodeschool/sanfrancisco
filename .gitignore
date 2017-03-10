@@ -224,3 +224,6 @@ FakesAssemblies/
 
 # Jekyll
 _site
+
+# Yarn
+yarn.lock
