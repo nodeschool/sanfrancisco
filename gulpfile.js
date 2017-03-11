@@ -112,7 +112,7 @@ gulp.task('watch', () => {
   gulp.watch(`${path.partials.src}/**/*.hbs`, ['hbs:compile']);
   gulp.watch(`${path.scripts.src}/**/*.js`, ['scripts:watch']);
   gulp.watch(`${path.assets.src}/**/*`, ['assets']);
-  gulp.watch(`${path.styles.src}/**/*`", ['styles']);
+  gulp.watch(`${path.styles.src}/**/*`, ['styles']);
 });
 
 gulp.task('default', ['hbs:compile', 'scripts', 'publish', 'watch', 'browser-sync']);
