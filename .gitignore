@@ -5,6 +5,9 @@
 logs
 *.log
 
+# NVM
+.nvmrc
+
 # Runtime data
 pids
 *.pid
@@ -221,3 +224,6 @@ FakesAssemblies/
 
 # Jekyll
 _site
+
+# Yarn
+yarn.lock

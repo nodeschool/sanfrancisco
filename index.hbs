@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NodeSchool San Francisco</title>
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="logo"></div>
+          <ul>
+            <li><a href="{{events.0.registerLinks.student}}">students</a></li>
+            <li><a href="{{events.0.registerLinks.mentor}}">mentors</a></li>
+            <li><a href="https://github.com/nodeschool/sanfrancisco/issues">forums</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="landing">
+        {{> _landing}}
+      </section>
+      <section class="students">
+        {{> _students}}
+      </section>
+      <section class="mentors"></section>
+      <section class="location"></section>
+      <section class="about"></section>
+      <section class="contact"></section>
+    </main>
+  </body>
+</html>
