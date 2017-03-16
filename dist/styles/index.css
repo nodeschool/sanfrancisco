@@ -1,181 +1,72 @@
-/*
- * top level
- */
-body {
-  padding-top: 50px;
+main {
+  margin: 0 auto;
+  width: 900px;
 }
 
-/*
- * navbar
- */
-.navbar {
-  font-family: 'Varela Round', sans-serif;
-  border-bottom: 1px solid #ccc;
-}
-.navbar .navbar-brand {
-  color: #ea7432;
-}
-.navbar li a,
-.navbar li a:link,
-.navbar li a:visited {
-  color: #ea7432;
+article,
+section,
+header {
+  /* wireframe-y appearance */
+  border: 1px solid #666;
+  padding: 1em;
 }
 
-/*
- * top jumbotron
- */
-.jumbotron-top {
-  font-family: 'Varela Round', sans-serif;
-  background-color: #999;
-  background-image: url('jumbotron-top-bg.jpg');
-  background-position: middle center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-bottom: 0;
-}
-.jumbotron-top h1 {
-  color: #fff;
-  font-size: 2.5em;
-}
-.jumbotron-top h1 span {
-  background-color: #000;
-  opacity: 0.75;
-  padding: 10px;
-  border-radius: 10px;
-}
-.jumbotron-top .logo {
-  max-width: 175px
-}
-@media (max-width: 768px) { /* for tablets and phones */
-  .jumbotron-top {
-    background-position: center center;
-    background-size: auto 100%;
-  }
+section {
+  display: flex;
+  border-bottom: 0;
 }
 
-/*
- * event jumbotron
- */
-.jumbotron-next-event {
-  font-family: 'Varela Round', sans-serif;
-  background-color: #eee;
-  margin-bottom: 0;
-}
-.jumbotron-next-event h2 {
-  font-size: 2em;
-  line-height: 1.5;
-}
-.jumbotron-next-event h3 {
-  font-size: 1.5em;
-  padding-top: 20px;
-}
-.jumbotron-next-event ul {
-}
-.jumbotron-next-event ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px 0 0;
-  padding-right: 20px;
-  border-right: 2px solid #ccc;
-}
-.jumbotron-next-event ul li:last-child {
-  border-right: none;
-  margin-right: 0;
-}
-@media (max-width: 768px) { /* for tablets and phones */
-  .jumbotron-next-event {
-    background-position: center center;
-    background-size: auto 100%;
-  }
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
 }
 
-/*
- * features
- */
-.features {
-  margin-top: 20px;
-}
-.features h3 {
-  font-family: 'Varela Round', sans-serif;
-}
-.features .fa-purple {
-  color: #492D61;
-}
-.features .fa-yellow {
-  color: #F2D43F;
-}
-.features .fa-green {
-  color: #61C155;
-}
-.features .fa-blue {
-  color: #409BA8;
-}
-.features .fa-orange {
-  color: #F38B22;
+.header-logo {
+  height: 100px;
 }
 
-/*
- * join-us jumbotron
- */
-.jumbotron-workshop-001 {
-  background-image: url('jumbotron-workshop-2015-02-07.jpg');
-}
-.jumbotron-workshop-002 {
-  background-image: url('jumbotron-workshop-2015-03-28.jpg');
-}
-.jumbotron-join-us {
-  font-family: 'Varela Round', sans-serif;
-  background-color: #999;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-bottom: 0;
-  min-height: 400px;
-  position: relative;
-}
-.jumbotron-join-us h2 {
-  color: #fff;
-  font-size: 2.5em;
-  position: absolute;
-  margin: auto;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-}
-.jumbotron-join-us a,
-.jumbotron-join-us a:link,
-.jumbotron-join-us a:visited {
-  color: #fff;
-}
-.jumbotron-join-us a:hover {
-  text-decoration: none;
-}
-.jumbotron-join-us h2 span {
-  background-color: #000;
-  opacity: 0.75;
-  padding: 10px;
-  border-radius: 10px;
-}
-.jumbotron-join-us .logo {
-  max-width: 175px
-}
-@media (max-width: 768px) { /* for tablets and phones */
-  .jumbotron-join-us {
-    background-position: top center;
-    background-size: auto 100%;
-  }
+.nav-links {
+  list-style-type: none;
+  width: 170px;
 }
 
-/*
- * other stuff
- */
-.rainbow-row {
-  height: 10px;
-  background-image: url('rainbow-bg.gif');
+.nav-link {
+  float: left;
+  margin-right: 5px;
 }
 
-.caption-bg {  /* picture captions */
-  background-color: #000;
-  opacity: 0.75;
-  border-radius: 10px;
+/* landing */
+.landing {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.landing-upcoming {
+  text-align: center;
+  width: 75%;
+}
+
+.landing .register-button {
+  text-align: center;
+  width: 100%;
+}
+
+.landing-focused,
+.landing-text {
+  width:40%;
+}
+
+.landing-focused-header {
+  display: flex;
+  line-height: .3;
+}
+
+.landing-focused-headings {
+  width: 240px;
+}
+
+.landing-focused-logo {
+  align-self: center;
+  height: 50px;
 }

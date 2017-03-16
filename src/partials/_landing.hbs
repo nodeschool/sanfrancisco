@@ -1,7 +1,19 @@
-<div class="next-event">
+<article class="landing-upcoming">
   <h1>Upcoming Event</h1>
   <p><time datetime="{{events.0.date}}">Saturday, January 28th</time></p>
   <p>location: {{events.0.location}}</p>
-  <a href="{{events.0.registerLinks.student}}" class="button register">register student</a>
-</div>
-<a class="big-ol-register-button" href="{{events.0.registerLinks.student}}">register!</a>
+  <a href="{{events.0.registerLinks.student}}" class="button register-button">register student</a>
+</article>
+<p class="landing-text"><strong>NodeSchool SF</strong> indicates a synchronic distortion in the areas emanating triolic waves. The cerebellum, the cerebral cortex, the brain stem,  the entire nervous system has been depleted of electrochemical energy. Any device like that would produce high levels of triolic waves. These walls have undergone some kind of selective molecular polarization. I haven't determined if our phaser energy can generate a stable field. We could alter the photons with phase discriminators.</p>
+<article class="landing-focused">
+    <header class="landing-focused-header">
+        <img class="landing-focused-logo" height="50" width="50" src="{{events.0.focusedSession.image}}" alt="it's a logo">
+        <div class="landing-focused-headings">
+            <h1>upcoming focused session</h1>
+            <h2>{{events.0.focusedSession.title}}</h2>
+            <h3>by {{events.0.focusedSession.author}}</h3>
+        </div>
+    </header>
+    <p class="landing-focused-text">{{events.0.focusedSession.desc}}</p>
+</article>
+<a class="button register-button" href="{{events.0.registerLinks.student}}">register!</a>
