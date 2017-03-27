@@ -10,22 +10,22 @@
   <body>
     <main>
       <header>
+        <h1>NodeSchool SF</h1>
         <nav>
-          <div class="logo"></div>
-          <ul>
-            <li><a href="{{events.0.registerLinks.student}}">students</a></li>
-            <li><a href="{{events.0.registerLinks.mentor}}">mentors</a></li>
-            <li><a href="https://github.com/nodeschool/sanfrancisco/issues">forums</a></li>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#students">students</a></li>
+            <li><a class="nav-link" href="{{events.0.registerLinks.mentor}}">mentors</a></li>
+            <li><a class="nav-link" href="https://github.com/nodeschool/sanfrancisco/issues">forums</a></li>
           </ul>
         </nav>
       </header>
       <section class="landing">
         {{> _landing}}
       </section>
-      <section class="students">
+      <section class="students" id="#students">
         {{> _students}}
       </section>
-      <section class="mentors"></section>
+      <section class="mentors" id="#mentors"></section>
       <section class="location"></section>
       <section class="about"></section>
       <section class="contact"></section>
