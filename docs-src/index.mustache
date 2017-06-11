@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
+    <title>NodeSchool SF</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="site">
+
+      <header id="header" class="header">
+        <a class="nodeschool-sf-love" href="https://nodeschool.io/sanfrancisco">
+          <strong class="strong--alt">We <img src="./images/heart-emoji.png" class="emoji" alt="heart"> NodeSchool Oakland!</strong>
+        </a>
+
+        <div class="header__content section__content">
+          <div class="header__identification">
+              <img id="logo" class="header__logo" src="./images/nodeschool-sf-hexagon.svg" />
+            <div class="header__logo-text">
+              <div class="header__logo-text__nodeschool">NodeSchool</div>
+              <div class="header__logo-text__sf">SF</div>
+            </div>
+            <nav class="header__social-links">
+              <a href="https://www.facebook.com/nodeschoolsf/">
+                <svg class="icon icon-facebook">
+                  <use xlink:href="./images/nodeschool_icons.svg#icon-facebook-square"></use>
+                </svg>
+              </a>
+              <a href="https://twitter.com/nodeschoolsf">
+                <svg class="icon icon-twitter">
+                  <use xlink:href="./images/nodeschool_icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a href="https://github.com/nodeschool/sanfrancisco">
+                <svg class="icon icon-github">
+                  <use xlink:href="./images/nodeschool_icons.svg#icon-github"></use>
+                </svg>
+              </a>
+            </nav>
+          </div>
+
+          <div class="header__introduction">
+            <h1 class="header__introduction__heading">We Help You Learn JavaScript</h1>
+            <p class="header__introduction__body">
+              <strong>NodeSchool SF</strong> is a monthly meetup dedicated to helping people learn JavaScript. We help people of all skill levels–from beginners to experts–discover what's possible with JavaScript. Bring yourself, your computer, and the desire to learn to our next event!
+            </p>
+          </div>
+
+          {{#nextEvent}}
+          <div class="next-event">
+            <div class="next-event__description">
+              <h2 class="next-event__heading">Our Next Event is on {{date}}</h2>
+              <ul class="next-event__info">
+                <li class="next-event__info__item">
+                  <strong class="strong--alt">When?</strong> {{dayOfTheWeek}}, {{date}} from {{time}}
+                </li>
+                <li class="next-event__info__item">
+                  <strong class="strong--alt">Where?</strong> {{address}} [<a href="http://maps.google.com/?q={{addressUrlSafe}}">map</a>]
+                </li>
+                <li class="next-event__info__item">
+                  <strong class="strong--alt">What?</strong> Learning, mentoring, javascript bffs, and pizza <img src="./images/pizza-emoji.png" class="emoji" alt="pizza emoji">
+                </li>
+              </ul>
+            </div>
+            <nav class="next-event__links">
+              <a class="next-event__links__learner next-event__links__link button" href="{{ticketsUrl}}">
+                Sign up as a Learner
+              </a><a class="next-event__links__mentor next-event__links__link button" href="{{mentorsUrl}}">
+                Sign up as a Mentor
+              </a>
+            </nav>
+          </div>
+          {{/nextEvent}}
+        </div>
+      </header>
+
+      <section id="focused-session" class="focused section">
+        <div class="focused__content section__content">
+          <h2 class="focused__heading">Upcoming Focused Session</h2>
+          <h3 class="focused__subheading">NodeBots</h3>
+          <p>Host Gaius Baltar will be leading a demonstration of how to make an LED blink with Node.</p>
+          <p>Registration will be limited to twenty attendees.</p>
+          <p><a href="{{ticketsUrl}}" class="button focused__register">Register now!</a></p>
+        </div>
+      </section>
+
+      <section id="faq" class="faq section">
+        <div class="faq__content section__content">
+          <h2 class="faq__heading">Frequently Asked Questions</h2>
+          <dl class="faq__questions">
+            <dt class="faq__question">
+              <h4 class="faq__subheading">What do I need to bring?</h4>
+            </dt>
+            <dd class="faq__answer">
+              Bring a laptop, a desire to learn, and all your friendship!
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">Who organizes this event?</h4>
+            </dt>
+            <dd class="faq__answer">
+              Reza Akhavan (<a href="https://twitter.com/jedireza">@jedireza</a>) and Lydia Kats (<a href="https://twitter.com/llkats">@llkats</a>) run the SF chapter.
+            </dd>
+
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">What actually happens at a NodeSchool SF event?</h4>
+            </dt>
+            <dd class="faq__answer">
+              NodeSchool SF events are an opportunity to hang out with other learners and mentors in a low stress, encouraging environment. Get set up to work on lessons with real industry tools on your own computer, at your own pace. A typical event follows this schedule:
+              <ul class="schedule">
+                <li class="schedule__item"><strong>1:00</strong> - Doors open</li>
+                <li class="schedule__item"><strong>1:15</strong> - Introduction and opening announcements</li>
+                <li class="schedule__item"><strong>1:40-5:00</strong> - Learning/mentoring</li>
+                <li class="schedule__item"><strong>3:00ish</strong> - Pizza! <img src="./images/pizza-emoji.png" class="emoji" alt="pizza emoji"></li>
+                <li class="schedule__item"><strong>5:00</strong> - Event ends</li>
+              </ul>
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">What is a Focused Session?</h4>
+            </dt>
+            <dd class="faq__answer">
+              Focused Sessions happen during our NodeSchool events. While our general event is free-form and self-directed, our Focused Sessions are more of a lecture-style format led by a mentor on special topics. We don't always have Focused Sessions, so keep an eye on our website and Twitter for announcements!
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">How much does it cost to attend?</h4>
+            </dt>
+            <dd class="faq__answer">
+              NodeSchool SF is <strong>free</strong>! And <a href="https://github.com/nodeschool/sf">open source</a>!
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">How do I become a mentor?</h4>
+            </dt>
+            <dd class="faq__answer">
+              We're always looking for people to volunteer to be mentors! We ask that prospective mentors:
+              <ul>
+                <li>Have already completed the <a href="http://nodeschool.io/#workshopper-list">core NodeSchool workshoppers</a> before the event.</li>
+                <ul><li>Having also completed some elective workshoppers is a great bonus.</li></ul>
+                <li>Review the <a href="https://github.com/nodeschool/organizers/wiki/Event-Mentor-Best-Practices">Mentor Best Practices</a> wiki page.</li>
+                <li>Arrive 30 minutes early (12:30p) so we can get setup and have our mentor meeting.</li>
+              </ul>
+            </dd>
+
+            <dt class="faq__question">
+              <h4 class="faq__subheading">More questions?</h4>
+            </dt>
+            <dd class="faq__answer"><a href="https://github.com/nodeschool/sanfrancisco/issues">File an issue at our GitHub repo</a> and we'll answer as soon as possible.</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section id="code-of-conduct" class="code-of-conduct section">
+        <div class="code-of-conduct__content section__content">
+          <h2>Code of Conduct</h2>
+          <p><strong>NodeSchool SF</strong> is dedicated to providing a harassment-free
+          event experience for everyone, regardless of gender, gender identity and expression,
+          age, sexual orientation, disability, physical appearance, body size, race, ethnicity,
+          religion (or lack thereof), or technology choices. We do not tolerate harassment of
+          event participants in any form. Sexual language and imagery is not appropriate for
+          any event venue, including talks, workshops, parties, Twitter and other online media.
+          Event participants violating these rules may be sanctioned or expelled from the event
+          at the discretion of the event organisers.</p>
+
+          <h3><strong>NodeSchool SF</strong></h3>
+          <p>Organizers:</p>
+          <ul>
+          <li>Reza Akhavan (<a href="https://twitter.com/jedireza">@jedireza</a>)</li>
+          <li>Lydia Kats (<a href="https://twitter.com/llkats">@llkats</a>)</li>
+          </ul>
+          <p><strong>If you have questions or feedback about this Code of Conduct please contact
+          one of the organizers.</strong></p>
+          <p>The organizers of the above community adhere to the <a href="http://jsconf.com/codeofconduct.html">JSConf Code of Conduct</a>.</p>
+        </div>
+      </section>
+
+      <footer id="attribution" class="attribution section">
+        <ul>
+          <li>Website gratefully forked from the <a href="https://nodeschool.io/oakland/">fine folks at NodeSchool Oakland</a>.</li>
+          <li>Emoji icons provided free by <a href="https://www.emojione.com/">EmojiOne</a>.</li>
+          <li>Fonts hosted by <a href="https://fonts.google.com/selection?selection.family=Montserrat|Raleway">Google Fonts</a>.</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
