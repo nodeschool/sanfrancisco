@@ -634,6 +634,9 @@ footer ul {
 .next-event__links__mentor:focus {
   border-left: #f2e2c9 1px solid;
 }
+.focused {
+  display: none;
+}
 .faq {
   position: relative;
 }

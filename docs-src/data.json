@@ -1,11 +1,11 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Saturday",
-    "date": "July 8thth",
+    "date": "July 8th",
     "time": "1-5PM",
-    "address": "TBD",
-    "addressUrlSafe": "TBD",
-    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues",
-    "ticketsUrl": "https://ti.to/"
+    "address": "Microsoft Reactor, 680 Folsom Street, Suite 145, SF, CA 94107",
+    "addressUrlSafe": "http%3A%2F%2Fmicrosoftreactor.com%2Fvenue%2Fsf-reactor%2F",
+    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/211",
+    "ticketsUrl": "https://ti.to/nodeschoolsf/july-8th-2017"
   }
 }
