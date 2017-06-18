@@ -23,52 +23,25 @@ directly.
 
 ## Contributing to the website
 
-### :tada: :tada: :tada: We are refactoring the website!! :tada: :tada: :tada: 
-
-Please see our [main organizing thread](https://github.com/nodeschool/sanfrancisco/issues/172), [contributing guidelines](https://github.com/nodeschool/sanfrancisco/blob/new-site/CONTRIBUTING.md), and [open issues](https://github.com/nodeschool/sanfrancisco/issues?q=is%3Aissue+is%3Aopen+label%3Awebsite-refresh) to contribute. To check out the latest revision of the site, fork this repo and check out the `new-site` branch.
-
-### Old website setup instructions
-
-The website is just basic HTML, CSS and JavaScript. It runs on [GitHub
-Pages](https://pages.github.com/).
+The website is generated using Mustache templates, Stylus, and JavaScript. It runs on [GitHub Pages](https://pages.github.com/).
 
 #### Running locally
 
-When you're editing the website it's convenient to run the website locally to
-see your changes.
+1. Fork the repository
+2. Clone your fork to a local folder: `git clone <fork url here>`
+3. `cd` into your project folder.
+4. Run `npm install` to install dependencies.
 
-Make sure you install dependencies via:
-
-```bash
-$ npm install
-```
-
-Then you can run the website via:
+For a development server, run
 
 ```bash
-$ npm start
-
-# > nodeschoolsf@2.0.0 start /projects/sanfrancisco
-# > http-server .
-
-# Starting up http-server, serving . on: http://0.0.0.0:8080
-# Hit CTRL-C to stop the server
+$ npm run docs:dev
 ```
 
-Now you can visit `http://localhost:8080/` in your browser to see the website.
+Now you can visit `http://localhost:8080/` in your browser to see the website. 
 
-By default it will start the server on port `8080`. If you want to specify a
-different port use:
-
-```bash
-$ PORT=3000 npm start
-```
-
-Where `3000` is any port you choose.
-
+**Important**: edit files inside the directory `docs-src`. Files are compiled into the `docs` folder. Changes will be compiled automatically by the `npm run docs:dev` command.
 
 ## Special thanks
 
-Andrew Duquet [created the first
-issue](https://github.com/nodeschool/organizers/issues/92) that got the San
-Francisco chapter started. Thank you Andrew!!
+Andrew Duquet [created the first issue](https://github.com/nodeschool/organizers/issues/92) that got the San Francisco chapter started. Thank you Andrew!!
