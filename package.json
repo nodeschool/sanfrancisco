@@ -15,7 +15,7 @@
     "docs:watch:styles": "npm run docs:build:styles -- -w",
     "docs:watch:images": "chokidar docs-src/images/* -c 'npm run docs:build:images' --initial",
     "docs:watch:fonts": "chokidar docs-src/fonts/* -c 'npm run docs:build:fonts' --initial",
-    "docs:server": "static docs",
+    "docs:server": "static docs --port=${PORT:=8080} --host-address=${HOST:=127.0.0.1}",
     "docs:dev": "npm-run-all --parallel docs:watch docs:server"
   },
   "repository": {
