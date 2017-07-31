@@ -1,11 +1,11 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Saturday",
-    "date": "July 8th",
+    "date": "August 26th",
     "time": "1-5PM",
-    "address": "Microsoft Reactor, 555 California St, Suite 200, SF, CA 94104",
-    "addressUrlSafe": "555+California+St,+San+Francisco,+CA+94104",
-    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/211",
-    "ticketsUrl": "https://ti.to/nodeschoolsf/july-8th-2017"
+    "address": "Google Launchpad, 301 Howard Street, 4th Floor, San Francisco, CA 94105",
+    "addressUrlSafe": "301+Howard+Street,+San+Francisco,+CA+94105",
+    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/220",
+    "ticketsUrl": "https://ti.to/nodeschoolsf/august-26th-2017"
   }
 }
