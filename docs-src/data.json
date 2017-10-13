@@ -1,11 +1,11 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Saturday",
-    "date": "September 30th",
+    "date": "October 28th",
     "time": "1-5PM",
-    "address": "Mixmax, 512 2nd St, San Francisco, CA 94107",
-    "addressUrlSafe": "512+2nd+St,+San+Francisco,+CA+94107",
-    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/222",
-    "ticketsUrl": "https://ti.to/nodeschoolsf/september-30th-2017"
+    "address": "Microsoft Reactor, 680 Folsom St, San Francisco, CA 94107",
+    "addressUrlSafe": "680+Folsom+St,+San+Francisco,+CA+94107",
+    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/226",
+    "ticketsUrl": "https://www.meetup.com/en-US/sfnodeschool/events/244163365/?eventId=244163365"
   }
 }
