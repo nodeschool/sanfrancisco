@@ -1,11 +1,11 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Saturday",
-    "date": "December 2nd",
+    "date": "January 27th",
     "time": "1-5PM",
     "address": "Mixmax, 512 2nd St, San Francisco, CA 94107",
     "addressUrlSafe": "512+2nd+St,+San+Francisco,+CA+94107",
-    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/228",
-    "ticketsUrl": "https://www.meetup.com/es-ES/sfnodeschool/events/245191260/?eventId=245191260"
+    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/232",
+    "ticketsUrl": "https://www.meetup.com/sfnodeschool/events/246651708/"
   }
 }
