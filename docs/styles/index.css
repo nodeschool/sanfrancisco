@@ -635,7 +635,7 @@ footer ul {
   border-left: #f2e2c9 1px solid;
 }
 .focused {
-  display: none;
+  display: block;
 }
 .faq {
   position: relative;
