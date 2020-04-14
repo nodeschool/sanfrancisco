@@ -635,7 +635,7 @@ footer ul {
   border-left: #f2e2c9 1px solid;
 }
 .focused {
-  display: none;
+  display: block;
 }
 .faq {
   position: relative;
@@ -671,6 +671,9 @@ footer ul {
   height: 10px;
   background-image: url("../images/white_bottom_border.png");
   background-size: 20px 16px;
+}
+.hidden {
+  display: none;
 }
 @media (min-width: 870px) {
   h1 {
