@@ -426,23 +426,6 @@ td,
 th {
   padding: 0;
 }
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-.icon-github {
-  width: 0.857421875em;
-}
-.icon-facebook-square {
-  width: 0.857421875em;
-}
-.icon-twitter {
-  width: 0.9287109375em;
-}
 * {
   box-sizing: border-box;
 }
