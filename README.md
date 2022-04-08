@@ -16,7 +16,6 @@ directly.
 
 ## Team
 
- - Bryan Hughes, [@nebrius](https://twitter.com/nebrius)
  - Fernando Larrañaga, [@xabadu](https://twitter.com/xabadu)
  - Thomas Hunter II, [@tlhunter](https://twitter.com/tlhunter) [Email](mailto:me@thomashunter.name)
 
