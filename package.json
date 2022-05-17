@@ -31,7 +31,7 @@
     "mustache": "^2.2.1"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.0",
+    "chokidar-cli": "^3.0.0",
     "mkdirp": "^0.5.1",
     "mustache": "^2.3.0",
     "ncp": "^2.0.0",
