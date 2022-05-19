@@ -221,3 +221,10 @@ FakesAssemblies/
 
 # Jekyll
 _site
+
+# eslint
+.eslintcache
+
+# Parcel
+.parcel-cache
+dist

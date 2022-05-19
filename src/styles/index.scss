@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 
-@import 'vendor/normalize.css';
-@import 'variables.styl';
+@import "vendor/normalize.css";
+@import "variables.scss";
 
 @keyframes glow {
-  0%, 100% {
+  0%,
+  100% {
     outline-color: lighten($color-dark-sky-blue, 70%);
   }
   50% {
@@ -18,15 +19,20 @@
 
 html,
 body {
-  font-family: 'Raleway', monospace;
+  font-family: "Raleway", monospace;
   font-size: 14px;
   line-height: 200%;
   color: rgb(31, 31, 31);
   background-color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 125%;
 }
@@ -63,17 +69,15 @@ footer ul {
   list-style: none;
 }
 
-
-
 .strong--alt {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .button {
   display: inline-block;
   border-top: lighten($color-desert-sand, 50%) 1px solid;
   padding: 10px 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 125%;
   text-align: center;
   color: $color-nodeschool-blue;
@@ -108,7 +112,6 @@ footer ul {
   padding: 0 20px;
 }
 
-
 .nodeschool-sf-love {
   position: absolute;
   top: 10px;
@@ -120,16 +123,12 @@ footer ul {
   height: 16px;
 }
 
-
-$logo-width = 140px;
-
 .header {
   position: relative;
   padding: 50px 0;
   font-size: 14px;
   color: white;
   background-color: $color-nodeschool-blue;
-  // background-image: url('../images/header_background.jpg');
   background-position: center center;
   background-size: cover;
 
@@ -144,14 +143,14 @@ $logo-width = 140px;
   }
 
   &:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     height: 10px;
-    background-image: url('../images/white_bottom_border.png');
+    background-image: url("../images/white_bottom_border.png");
     background-size: 20px 16px;
   }
 }
@@ -181,12 +180,12 @@ $logo-width = 140px;
 }
 
 .header__logo-text__nodeschool {
-  font-family: 'Raleway', monospace;
+  font-family: "Raleway", monospace;
 }
 
 .header__logo-text__oakland {
   margin: 5px 0 0 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -199,8 +198,6 @@ $logo-width = 140px;
 .header__introduction {
   padding: 0;
 }
-
-
 
 .next-event {
   margin: 35px 0 0 0;
@@ -257,14 +254,14 @@ $logo-width = 140px;
   position: relative;
 
   &:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     height: 10px;
-    background-image: url('../images/off_white_bottom_border.png');
+    background-image: url("../images/off_white_bottom_border.png");
     background-size: 20px 16px;
   }
 }
@@ -282,14 +279,14 @@ $logo-width = 140px;
   position: relative;
 
   &:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     height: 10px;
-    background-image: url('../images/white_bottom_border.png');
+    background-image: url("../images/white_bottom_border.png");
     background-size: 20px 16px;
   }
 }
@@ -298,4 +295,4 @@ $logo-width = 140px;
   display: none;
 }
 
-@import 'responsive.styl';
+@import "responsive.scss";
