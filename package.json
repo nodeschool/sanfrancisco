@@ -1,28 +1,28 @@
 {
-  "name": "NodeSchoolSF",
-  "version": "2.0.0",
+  "name": "nodeschool-sf",
+  "version": "2.1.0",
   "description": "The NodeSchool SF chapter website.",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "docs:build": "mkdirp docs && npm-run-all --serial docs:build:*",
+    "docs:build": "mkdir -p docs && npm-run-all --serial docs:build:*",
     "docs:build:html": "mustache docs-src/data.json docs-src/index.mustache > docs/index.html",
-    "docs:build:styles": "mkdirp docs/styles && stylus docs-src/styles/index.styl --out docs/styles --include node_modules --include-css",
+    "docs:build:styles": "mkdir -p docs/styles && stylus docs-src/styles/index.styl --out docs/styles --include node_modules --include-css",
     "docs:build:images": "ncp docs-src/images docs/images",
-    "docs:watch": "mkdirp docs && npm-run-all --parallel docs:watch:*",
+    "docs:watch": "mkdir -p docs && npm-run-all --parallel docs:watch:*",
     "docs:watch:html": "chokidar docs-src/index.mustache -c 'npm run docs:build:html' --initial",
     "docs:watch:styles": "npm run docs:build:styles -- -w",
     "docs:watch:images": "chokidar docs-src/images/* -c 'npm run docs:build:images' --initial",
     "docs:watch:fonts": "chokidar docs-src/fonts/* -c 'npm run docs:build:fonts' --initial",
-    "docs:server": "static docs --port=${PORT:=8080} --host-address=${HOST:=127.0.0.1}",
+    "docs:server": "browser-sync start --server 'docs' --files 'docs' --port=8080",
     "docs:dev": "npm-run-all --parallel docs:watch docs:server"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/nodeschool/sanfrancisco.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nodeschool/sanfrancisco/issues"
   },
@@ -31,11 +31,10 @@
     "mustache": "^2.2.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.27.10",
     "chokidar-cli": "^3.0.0",
-    "mkdirp": "^0.5.1",
     "mustache": "^2.3.0",
     "ncp": "^2.0.0",
-    "node-static": "^0.7.9",
     "npm-run-all": "^4.0.2",
     "stylus": "^0.54.5"
   }
