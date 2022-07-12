@@ -1,11 +1,11 @@
 {
   "nextEvent": {
     "dayOfTheWeek": "Saturday",
-    "date": "July 2nd",
+    "date": "July 30th",
     "time": "1-5PM",
     "address": "Microsoft Reactor, 680 Folsom St, Suite 145, San Francisco, CA 94107",
     "addressUrlSafe": "680+Folsom+St,+San+Francisco,+CA+94107",
-    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/301",
-    "ticketsUrl": "https://www.meetup.com/sfnodeschool/events/286431888"
+    "mentorsUrl": "https://github.com/nodeschool/sanfrancisco/issues/305",
+    "ticketsUrl": "https://www.meetup.com/sfnodeschool/events/287148441"
   }
 }
