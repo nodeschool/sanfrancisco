@@ -31,7 +31,7 @@
     "mustache": "^2.2.1"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.2",
+    "browser-sync": "^3.0.3",
     "chokidar-cli": "^3.0.0",
     "mustache": "^2.3.0",
     "ncp": "^2.0.0",
